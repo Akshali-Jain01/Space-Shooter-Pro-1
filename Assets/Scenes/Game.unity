@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 1643543011}
   - component: {fileID: 1643543010}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -334,6 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3.5
+  _laserPrefab: {fileID: 5051289201057252059, guid: 5b4259f0a9d831b42b3a7bad15359040, type: 3}
 --- !u!65 &1643543011
 BoxCollider:
   m_ObjectHideFlags: 0
